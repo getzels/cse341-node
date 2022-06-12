@@ -1,0 +1,37 @@
+[
+{
+    "firstName": "Liham",
+    "lastName": "De Los Santos",
+    "email": "ldelossantos@test.com",
+    "favoriteColor": "black",
+    "birthday": "02/15/2015"
+},
+{
+    "firstName": "Xavier",
+    "lastName": "De Los Santos",
+    "email": "ldelossantos@test.com",
+    "favoriteColor": "black",
+    "birthday": "12/19/2011"
+  },
+  {
+    "firstName": "Kenia",
+    "lastName": "Cabrera",
+    "email": "ldelossantos@test.com",
+    "favoriteColor": "black",
+    "birthday": "08/09/1988"
+  },
+  {
+    "firstName": "Nicolas",
+    "lastName": "De Los Santos",
+    "email": "ldelossantos@test.com",
+    "favoriteColor": "black",
+    "birthday": "06/26/1988"
+  },
+  {
+    "firstName": "Vicenta",
+    "lastName": "Giron",
+    "email": "vgiron@test.com",
+    "favoriteColor": "pink",
+    "birthday": "04/05/2062"
+  }
+]
