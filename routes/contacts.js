@@ -1,8 +1,14 @@
 const routes = require('express').Router()
-const controller = require('../controller/contactController')
+const contactController = require('../controller/contactController')
 
-routes.get('/', controller.list_all_contacts);
+routes.get('/', contactController.list_all);
 
-routes.get('/:contactId', controller.get_contacts_by_id);
+routes.get('/:contactId', contactController.get_by_id);
+
+routes.post('/', contactController.create);
+
+routes.put('/:contactId', contactController.update);
+
+routes.delete('/:contactId', contactController.delete);
 
 module.exports = routes
