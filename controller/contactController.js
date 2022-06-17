@@ -26,6 +26,11 @@ exports.create = function (req, res) {
         return;
     }
 
+    /*  #swagger.parameters['any_name'] = {
+               in: 'body',
+               description: 'Contact info'
+        }
+    */
     const contact = new Contact(req.body);
 
     try {
@@ -37,6 +42,11 @@ exports.create = function (req, res) {
 }
 
 exports.update = async (req, res) => {
+    /*  #swagger.parameters['any_name'] = {
+               in: 'body',
+               description: 'Contact info'
+        }
+    */
     try {
         let contactUpdated = await Contact.findByIdAndUpdate(req.params.contactId, req.body, {new: true});
         if (!contactUpdated) {

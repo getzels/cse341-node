@@ -4,8 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "nodemon server.js",
-    "start": "node server.js"
+    "test": "nodemon swagger.js",
+    "start": "node swagger.js",
+    "swagger-autogen": "node swagger.js"
   },
   "repository": {
     "type": "git",
@@ -20,11 +21,14 @@
   "homepage": "https://github.com/getzels/cse341-node#readme",
   "dependencies": {
     "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "heroku": "^7.60.2",
     "mongodb": "^4.7.0",
-    "mongoose": "^6.3.6"
+    "mongoose": "^6.3.6",
+    "swagger-ui-express": "^4.4.0",
+    "swagger-autogen": "^2.21.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
